@@ -103,7 +103,7 @@ img {
   font-size: 14px;
   gap: 46px;
   align-items: flex-end;
-  margin-left: 93px;
+  /* margin-left: 93px; */
 }
 .navigation-items {
   font-weight: 500;
@@ -350,6 +350,8 @@ img {
   padding-left: 215px;
   /* width: 1200px; */
   /* margin: auto; */
+  display:flex;
+  gap:70px;
   
 }
 .studio-footer {
@@ -389,15 +391,17 @@ img {
 }
 
 .header-join-us {
-  font-family: inherit;
+font-family: inherit;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--button-font-color);
-margin-bottom: 30px;
+margin-bottom: 20px;
+
 }
+
 .footer-icons {
   display:flex;
   gap:22px;
